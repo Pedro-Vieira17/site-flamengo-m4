@@ -14,11 +14,17 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.parte_da_escalação{
+.parte_da_escalação {
     background-color: rgb(24, 24, 24);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 50px;
+    color: white;
+    align-items: center;
+}
 
+.parte_da_escalação h2 {
+    text-align: center;
+   
 }
 
 #icon {
@@ -35,7 +41,9 @@ body {
 
 
 .img_noticia {
-    width: 400px;
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
 }
 
 
@@ -71,6 +79,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+
 }
 
 .jogador {
