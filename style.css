@@ -5,7 +5,7 @@ body {
 
 
 
-nav {
+.parte_de_cima {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +14,12 @@ nav {
     color: rgb(0, 0, 0);
 }
 
+.parte_da_escalação{
+    background-color: rgb(24, 24, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+
+}
 
 #icon {
     width: 85px;
