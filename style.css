@@ -92,3 +92,10 @@ footer {
     color: white;
     font-size: 18px;
 }
+
+.gif_fixo {  
+    position: fixed;
+    bottom: 20px;      
+    right: 20px;      
+    width: 100px;           
+}
